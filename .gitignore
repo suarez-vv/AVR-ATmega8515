@@ -1,0 +1,18 @@
+#Copias anteriores
+Project\ Backups/
+
+#Archivos de VScode
+.vs/
+
+#Archivos de objeto, hexadecimal, etc.
+Debug/
+
+#Archivos temporales de proteus
+*.pdsprj.* 
+
+#Archivos del IDE
+*.component*
+
+#Sistema
+.DS_Store
+Thumbs.db
