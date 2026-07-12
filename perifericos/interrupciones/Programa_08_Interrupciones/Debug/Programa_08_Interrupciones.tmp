@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega8515"</DEVICE>
+ <WORKING_DIR>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m8515def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M8515DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\Debug\Programa_08_Interrupciones.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Programa_08_Interrupciones.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Programa_08_Interrupciones.map</FILE>
+  <FILE>Programa_08_Interrupciones.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <PRINCIPAL><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>17</LINE></PRINCIPAL>
+  <INT_EXT_0><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>93</LINE></INT_EXT_0>
+  <INICIO><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>46</LINE></INICIO>
+  <CICLO><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>48</LINE></CICLO>
+  <TABLA_NUMEROS><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>138</LINE></TABLA_NUMEROS>
+  <SIGUE><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>59</LINE></SIGUE>
+  <UN_SEG><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>74</LINE></UN_SEG>
+  <L1><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>79</LINE></L1>
+  <CICLO2><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>101</LINE></CICLO2>
+  <TABLA_LETRAS><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>142</LINE></TABLA_LETRAS>
+  <SIGUE2><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>112</LINE></SIGUE2>
+  <FIN_IE0><FILE>C:\Users\vlady\Documents\UAA\Circuitos\Arquitectura de computadoras\Programa_08_Interrupciones\Programa_08_Interrupciones\Programa_08_Interrupciones\main.asm</FILE><LINE>129</LINE></FIN_IE0>
+ </LABELS>
+</ASSEMBLER_INFO>

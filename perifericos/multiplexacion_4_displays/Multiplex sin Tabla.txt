@@ -1,0 +1,81 @@
+; Multiplexeado sin tabla - dígitos del 0 al 3
+
+.INCLUDE <M8515DEF.INC>
+
+;Configuración de puertos 
+LDI R16, 0xFF
+OUT DDRA, R16       
+LDI R16, 0xFF
+OUT DDRB, R16
+
+;Configuracion del stack pointer
+LDI R16, LOW(RAMEND)
+OUT SPL, R16
+LDI R16, HIGH(RAMEND)
+OUT SPH, R16
+
+;Programa principal
+CICLO:
+    ; Display 0 → “0” (0xC0)
+    LDI R22, 0xC0
+    RCALL MOSTRAR_0
+
+    ; Display 1 → “1” (0xF9)
+    LDI R22, 0xF9
+    RCALL MOSTRAR_1
+
+    ; Display 2 → “2” (0xA4)
+    LDI R22, 0xA4
+    RCALL MOSTRAR_2
+
+    ; Display 3 → “3” (0xB0)
+    LDI R22, 0xB0
+    RCALL MOSTRAR_3
+
+    RJMP CICLO
+
+;Displays
+MOSTRAR_0:
+    OUT PORTA, R22
+    LDI R23, 0xFF
+    OUT PORTB, R23        
+    LDI R23, 0xFE        
+    OUT PORTB, R23
+    RCALL RETARDO
+    RET
+
+MOSTRAR_1:
+    OUT PORTA, R22
+    LDI R23, 0xFF
+    OUT PORTB, R23
+    LDI R23, 0xFD        
+    OUT PORTB, R23
+    RCALL RETARDO
+    RET
+
+MOSTRAR_2:
+    OUT PORTA, R22
+    LDI R23, 0xFF
+    OUT PORTB, R23
+    LDI R23, 0xFB         
+    OUT PORTB, R23
+    RCALL RETARDO
+    RET
+
+MOSTRAR_3:
+    OUT PORTA, R22
+    LDI R23, 0xFF
+    OUT PORTB, R23
+    LDI R23, 0xF7        
+    OUT PORTB, R23
+    RCALL RETARDO
+    RET
+
+;Rutinas
+
+RETARDO:
+    LDI R24, 5
+RET_LOOP:
+    DEC R24
+    BRNE RET_LOOP
+	RET
